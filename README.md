@@ -1,3 +1,19 @@
+---
+component-id: machine-reading
+name: Machine Reading Suite
+description: The machine reading suite is meant to query multiple machine readers for generating RDF from textual documents. RDFs are produced by using the N-Quad syntax.
+type: Repository
+release-date: 22/09/2023
+release-number: v1.0
+work-package: 
+- WP4
+licence: Apache License 2.0
+links:
+- https://github.com/polifonia-project/machine-reading
+credits:
+- https://github.com/anuzzolese
+---
+
 # Machine Reading suite
 
 ## Installation
@@ -6,8 +22,8 @@
 
 ## Usage
 The machine reading suite is meant to query multiple machine readers for generating RDF from textual documents.
-RDF are produced by using the [N-Quad](https://www.w3.org/TR/n-quads/) syntax.
-The suite comes along two default machine readers, i.e. (i) [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/) and (ii) [Text2AMR2Fred](https://arco.istc.cnr.it/txt-amr-fred/).
+RDFs are produced by using the [N-Quad](https://www.w3.org/TR/n-quads/) syntax.
+The suite comes with two default machine readers, i.e. (i) [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/) and (ii) [Text2AMR2Fred](https://arco.istc.cnr.it/txt-amr-fred/).
 The processing can be executed with the script ```mr.py``` that can be found inside the root folder of the project.
 The ```mr.py``` script accepts a CSV file as input and it can be used in the following way
 
